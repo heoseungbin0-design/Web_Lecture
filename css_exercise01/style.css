@@ -1,0 +1,188 @@
+/* 기본 */
+body {
+    font-family: 'Malgun Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-ccolor: gray;
+    color: #333;
+}
+/* 상단 헤더 */
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0 0 8px 0;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin: 0;
+    color: #white;
+    font-style: italic;
+    font-size: 15px;
+}
+
+/* main */
+main {
+    background-color: lightgray;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* 박스 */
+
+.card-box {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0,0.04);
+}
+
+/* 제목 */
+.card-box h2{
+    color: darkblue;
+    border-bottom: 2px solid darkblue;
+    padding-bottom: 10px;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+/* 카드 */
+.profile-card {
+    background-color:  lightblue;
+    border: 1px solid lightsteelblue;
+    border-radius:10px;
+    padding: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+/* 이미지 */
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+}
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.profile-info h3 {
+    margin: 0;
+    font-size: 22px;
+    color: black;
+}
+
+.profile-info p{
+    margin:  0;
+    font-size: 15px;
+    color: black;
+}
+
+/* 스타일 */
+.skill-tags{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.tag {
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.tag.html { background-color: rgb(98, 170, 98); color: black; }
+.tag.css { background-color: rgb(212, 89, 89); color: black; }
+.tag.js { background-color: lightgray; color: black; }
+.tag.git { background-color: rgb(212,89,89); color: black; }
+
+
+/* 문의 */
+table.form-table {
+
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table. form-table td {
+
+    padding: 10px 5px;
+    border: none;
+    vertical-align: middle;
+}
+
+table.form-table td:first-child {
+
+    width: 100px;
+    font-weight: bold;
+}
+
+/* 입력창 디자인 */
+input[Type="text"] {
+
+    width: 40%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    background-color:lightyellow;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+input[type="email"] {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    background-color:lightblue;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+/*제출버튼*/
+.form-container{
+    text-align: right;
+}
+
+.submit-btn {
+
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 1px;
+    font-size: 11px;
+    cursor: pointer;
+    margin-top: 10px;   
+}
+
+.submit-btn:hover {
+    background-color: gray;
+}
+/* 하단 */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:15px;
+    font-size: 15px;
+    margin-top: 140px;
+}
