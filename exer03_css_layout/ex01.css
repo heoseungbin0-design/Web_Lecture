@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 420px;
+    margin: 0 auto;
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+}
+
+/* 헤더 */
+.header {
+    width: 450px;
+}
+
+.header h2 {
+    margin: 0;
+    padding:20px 0;
+}
+
+.header hr {
+    margin: 5;
+}
+
+/* 메뉴 */
+.menu {
+    float: right;
+    margin-top: -20px;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* 메인 */
+.main {
+    width: 3000px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+/* 왼쪽 뉴스 */
+.item_01 {
+    float: left;
+    width: 381px;
+    height: 140px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+/* 오른쪽 영역 */
+.sidebar {
+    float: left;
+    width: 150px;
+    margin-left: 30px;
+}
+
+/* 인기 글 */
+.item_02 {
+    width: 130px;
+    height: 128px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* footer */
+.footer {
+    clear: both;
+    width: 420px;
+    margin-top: 10px;
+    padding-top: 12px;
+    border-top: 1px solid black;
+    text-align: center;
+}
